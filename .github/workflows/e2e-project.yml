@@ -5,9 +5,9 @@ on:
     branches:
       - main
     paths:
-      - './**.js'
-      - './**.json'
-      - './**.yml'
+      - '**.js'
+      - '**.json'
+      - '**.yml'
 
 jobs:
   e2e-project-tests:
